@@ -21,13 +21,19 @@
 }
           .lista-menu {display:none;
            position:absolute;
-           top: 100%;}
+           top: 100%;
+           width: 40vw;}
            
            .container__botao:checked~.lista-menu{ 
-            display: block;
+            display: block;}
            
-
-          }
-       
-       
-        
+           .lista-menu__titulo,.lista-menu__item{
+                padding: 1em;
+                background-color: rgb(221, 116, 25);}
+                
+           .lista-menu__link{
+            background-image: linear-gradient(rgb(230, 125, 28),rgb(247, 185, 60));
+           -webkit-background-clip: text;
+           -webkit-text-fill-color: rgb(249, 57, 57);
+           background-clip: text;
+           text-transform: uppercase; }
