@@ -29,11 +29,11 @@
            
            .lista-menu__titulo,.lista-menu__item{
                 padding: 1em;
-                background-color: rgb(221, 116, 25);}
+                background-color: rgb(235, 250, 171);}
                 
            .lista-menu__link{
-            background-image: linear-gradient(rgb(238, 141, 51),rgb(255, 195, 74));
+            background-image: linear-gradient(rgb(252, 192, 136),rgb(253, 184, 46));
            -webkit-background-clip: text;
-           -webkit-text-fill-color: rgb(249, 57, 57);
+           -webkit-text-fill-color: rgb(249, 220, 57);
            background-clip: text;
            text-transform: uppercase; }
