@@ -25,7 +25,7 @@
            width: 40vw;}
            
            .container__botao:checked~.lista-menu{ 
-            display: block;}
+            display: none;}
            
            .lista-menu__titulo,.lista-menu__item{
                 padding: 1em;
